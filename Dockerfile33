@@ -22,7 +22,7 @@ ADD  aaa
 
 EXPOSE  80 
 
-ENV  ss 
+ENV  ss sd
 
    
 
