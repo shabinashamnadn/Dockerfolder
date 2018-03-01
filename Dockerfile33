@@ -1,0 +1,28 @@
+#Pull base image
+
+From kuberiter/tomcatoraclejdk8:v52
+
+
+
+# Maintainer
+
+MAINTAINER Kuberiter
+
+
+
+# Copy to images tomcat path
+
+ADD ./sample-war-files/sample.war var/www
+
+
+
+#Add custom commands
+
+ADD  aaa 
+
+EXPOSE  80 
+
+ENV  ss 
+
+   
+
